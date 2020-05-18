@@ -29,6 +29,6 @@ class String
   def count_sentences
     delimiters = [". ", "?", "!"]
     #binding.pry
-    new_count = self.split(Regexp.union(delimiters)).reject(&:empty?).size
+    self.split(Regexp.union(delimiters)).reject(&:empty?).size
   end
 end
