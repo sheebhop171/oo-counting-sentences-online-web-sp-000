@@ -27,6 +27,7 @@ class String
   end
 
   def count_sentences
+    delimiters = [". ", "?", "!"]
     binding.pry
     self.split(/[\s,']/)
   end
