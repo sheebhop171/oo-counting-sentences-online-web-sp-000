@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     binding.pry
-    self.split(/\s*-\s*/)
+    self.split(/[\s,']/)
   end
 end
