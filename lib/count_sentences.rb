@@ -31,4 +31,5 @@ class String
     binding.pry
     new_count = self.split(Regexp.union(delimiters))
   end
+  new_count.count
 end
