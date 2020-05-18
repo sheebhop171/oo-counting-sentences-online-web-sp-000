@@ -30,5 +30,6 @@ class String
     delimiters = [". ", "?", "!"]
     binding.pry
     new_count = self.split(Regexp.union(delimiters))
+    new_count.length
   end
 end
