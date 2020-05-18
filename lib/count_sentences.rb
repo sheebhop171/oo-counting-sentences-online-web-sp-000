@@ -30,6 +30,5 @@ class String
     delimiters = [". ", "?", "!"]
     #binding.pry
     new_count = self.split(Regexp.union(delimiters)).count
-    new_count.reject(&:blank?)
   end
 end
